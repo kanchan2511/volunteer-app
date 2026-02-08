@@ -1,0 +1,16 @@
+.primary{
+    background: #0077cc;
+    color: white;
+    width: 100%;
+}
+
+.container label {
+  display: block;
+  margin: 12px 0 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+}
+.container label:first-of-type {
+  margin-top: 0;
+}
