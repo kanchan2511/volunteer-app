@@ -5,7 +5,7 @@ const Admin = () => {
     const [volunteers, setVolunteers] = useState([])
     const [loading, setLoading] = useState(true)
     useEffect(() => {
-        fetch("https://volunteer-app-66mb.onrender.com")
+        fetch("https://volunteer-app-66mb.onrender.com/api/volunteers")
             .then(res => res.json())
             .then(data => {
                 setVolunteers(data)

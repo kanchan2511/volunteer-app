@@ -1,5 +1,5 @@
 export const submitVolunteer = async (data) => {
-  const response = await fetch("https://volunteer-app-66mb.onrender.com", {
+  const response = await fetch("https://volunteer-app-66mb.onrender.com/api/volunteers", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
